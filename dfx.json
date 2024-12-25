@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "matlab_backend": {
+      "candid": "src/matlab_backend/matlab_backend.did",
+      "package": "matlab_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
